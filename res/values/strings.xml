@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">MessageSample001</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_message_sample001">MessageSample001Activity</string>
+
+</resources>
