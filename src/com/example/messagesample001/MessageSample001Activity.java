@@ -1,4 +1,4 @@
-package com.gclue.MessageSample001;
+package com.example.messagesample001;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -13,26 +13,26 @@ public class MessageSample001Activity extends Activity {
 		super.onCreate( savedInstanceState );
 		setContentView( R.layout.activity_message_sample001 );
 
-		// LogCat‚Å•\¦‚·‚é
+		// LogCatï¿½Å•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		String message_log = "TEST LOG";
 		Log.i( "TEST", message_log );
-		// Toast‚Å•\¦‚·‚é
+		// Toastï¿½Å•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		String message_toast = "TEST TOAST";
 		Toast.makeText(this, message_toast, Toast.LENGTH_LONG).show();
-		// Dialog‚Å•\¦‚·‚é
+		// Dialogï¿½Å•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		String message_dialog = "TEST DIALOG";
 		showDialog( message_dialog );
 	}
 
 	/**
-	 * ƒ_ƒCƒAƒƒO‚Å•¶š—ñ‚ğ•\¦‚·‚éB
-	 * @param message •\¦‚µ‚½‚¢•¶š—ñ
+	 * ï¿½_ï¿½Cï¿½Aï¿½ï¿½ï¿½Oï¿½Å•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+	 * @param message ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 */
 	private void showDialog( String message ) {
 		new AlertDialog.Builder( this )
 			.setMessage( message )
 			.setNeutralButton( "YES", new DialogInterface.OnClickListener() {
-				// ‚±‚Ì’†‚É"YES"‚Ìˆ—‚ğ‚¢‚ê‚é
+				// ï¿½ï¿½ï¿½Ì’ï¿½ï¿½ï¿½"YES"ï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 				public void onClick( DialogInterface dialog, int whichButton ) {
 				}
 			} ).show();
